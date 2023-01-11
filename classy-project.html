@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="personal.css">
+	<link rel="stylesheet" type="text/css" href="projects.css">
+	<title>Sebastian Bastida Marin</title>
+</head>
+<body>
+	<div style="background:black;">
+		<header class= "backgroundimage4 menu box">
+			<div id ="title" class="title">
+			<img class="" src="Pics/title.png">
+			</div>
+			<div class= "backgroundimage4 menu box ">
+			<a><img class="socials " src="Pics/US.png"></a>
+			<a><img class="socials" src="Pics/España.png"></a>
+			<a style="text-align: center;" class="menulinks" href="personalwebsite.html">Home</a>
+			<a style="text-align: center;" class="menulinks" href="#Programming">Programming</a>
+			<a style="text-align: center;" class="menulinks" href="#Aboutme">About Me</a>
+			<a style="text-align: center;" class="menulinks" href="#Personal">Personal</a>
+			<a style="text-align: center;" class="menulinks" href="#Contact">Contact</a>
+			</div>
+		<!--
+		<header class="menusmall">
+		<li><a class="menulinks" href="#">Home</a></li>
+		<li><a class="menulinks" href="#">About Me</a></li>
+		<li><a class="menulinks" href="#">Projects</a></li>
+		<li><a class="menulinks" href="#">Other Activities</a><li>
+		</header>
+		-->
+				</header>
+<br><br><br><br><br><br><br><br><br><br>
+<div style="background:black;">
+<h1 style="margin: -10px; color:purple; text-align: center;">CLASSY</h1>
+<h1 style="margin: 10px; color:green; text-align: center;"> < Project / JAVA > </h1>
+</div>
+		
+		<div class="backgroundimage1" style="padding: 2pc 5pc 2pc 5pc;">
+			
+			<div class="sides border">
+				<img src="Pics/img.png">
+			</div>
+
+		</div>
+
+
+<div class="backgroundimage3">
+<footer id="Contact"class="footer">
+		<a><img class="socials" src="Pics/insta.png"></a>
+		<p style="text-align: center;">Phone number: +1 (951) 466-9984</p>
+</footer>
+</div>
+<button class="backtotop"onclick="topFunction()" id="backtotop" title="Go to top">⬆</button>
+
+<!-- IMAGEN INCORPORADA -->
+<script>
+var mybutton = document.getElementById("backtotop");
+var navbar = document.getElementById("title");
+
+window.onscroll = function() {scrollFunction(),hidetitle()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+	function hidetitle() {
+		if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+			  navbar.style.display = "none";
+			  navbar.style.transitionDelay = "all 2s";
+			} 
+			else {
+			  navbar.style.display = "block";
+			}
+	}
+
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+</script>
+<script type="text/javascript">
+	
+var tablinks = document.getElementByClassName("tablinks");
+var tabcontents = document.getElementByClassName("tabcontents");
+
+function opentab(tabname) {
+	for(tablink of tablinks) {
+		tablink.classList.remove("activelink");
+	}
+		for(tabcontent of tabcontents) {
+		tabcontent.classList.remove("activetab");
+	}
+	event.currentTarget.classList.add("activelink");
+	document.getElementById(tabname).classList.add("activetab");
+}
+</script>
+</body>
+</html>

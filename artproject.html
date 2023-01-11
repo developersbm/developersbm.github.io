@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="personal.css">
+	<link rel="stylesheet" type="text/css" href="projects.css">
+	<title>SBM - Art</title>
+</head>
+<body>
+	<div class="backgroundimage4">
+		<header class= "backgroundimage4 menu box">
+			<div id ="title" class="title">
+			<img class="" src="Pics/title.png">
+			</div>
+			<div class= "backgroundimage4 menu box menubig">
+			<a><img class="socials " src="Pics/US.png"></a>
+			<a><img class="socials" src="Pics/España.png"></a>
+			<a style="text-align: center;" class="menulinks" href="personalwebsite.html">Home</a>
+			<a style="text-align: center;" class="menulinks" href="#Programming">Programming</a>
+			<a style="text-align: center;" class="menulinks" href="#Aboutme">About Me</a>
+			<a style="text-align: center;" class="menulinks" href="#Personal">Personal</a>
+			<a style="text-align: center;" class="menulinks" href="#Contact">Contact</a>
+			</div>
+		<div class="menusmall">
+			<a><img class="socials " src="Pics/US.png"></a>
+			<a><img class="socials" src="Pics/España.png"></a>
+		<a class="menulinks" href="#">Home</a>
+		<a class="menulinks" href="#">About Me</a>
+		<a class="menulinks" href="#">Projects</a>
+		<a class="menulinks" href="#">Other Activities</a>
+					<div class="menusmall"><img src="Pics/Burger.png"></div>
+
+		</div>
+
+				</header>
+<br><br><br><br><br><br><br><br>
+
+</div>
+	        		<div class="purple">
+
+<!-- Title -->
+	        <div class="maintitle">
+	        			<div class="row2">
+	        				<img class="horse1"src="Pics/horse1.png">
+	        			<div class="left borderart">
+	        			<h2 style="text-align: center;"class="subtitle">SEBASTIAN BASTIDA MARIN</h2>
+	       				<h3>ART - PORTFOLIO</h3>
+
+	        			</div>
+	        			</div>
+	        	</div>
+	        </div>
+
+	        			<div>
+	        				<img class="horse1 transformation"src="Pics/landscape1.png">
+	        				<img class="horse1 transformation"src="Pics/landscape2.png">
+	        				<img class="horse1 transformation"src="Pics/landscape3.png">
+	        			<div>
+	        				<h1 class="minititle">LANDSCAPES</h1>
+	        			</div>
+	        			</div>
+
+        			<div class="purple">
+	        				<img class="horse1 transformation2"src="Pics/1.png">
+	        				<img class="horse1 transformation2"src="Pics/flower.png">
+	        			<div>
+	        				<h1 class="minititle2">ACRYLIC & WATERCOLOR</h1>
+	        			</div>
+	        			</div>
+
+	        			<div>
+	        				<img class="horse1 transformation2"src="Pics/3.png">
+	        				<img class="horse1 transformation2"src="Pics/4.png">
+	        			<div>
+	        				<h1 class="minititle">REALISM</h1>
+	        			</div>
+	        			</div>
+
+	        			<div class="purple">
+	        				<img class="horse1 transformation2"src="Pics/5.png">
+	        				<img class="horse1 transformation2"src="Pics/6.png">
+	        			<div>
+	        				<h1 class="minititle2">PERSPECTIVE</h1>
+	        			</div>
+	        			</div>
+
+	        			<div>
+	        				<img class="horse1 transformation2"src="Pics/7.png">
+	        				<img class="horse1 transformation2"src="Pics/8.png">
+	        			<div>
+	        				<h1 class="minititle">NATURE</h1>
+	        			</div>
+	        			</div>
+
+	        			<div class="purple">
+	        				<img class="horse1 transformation2"src="Pics/9.png">
+	        				<img class="horse1 transformation2"src="Pics/10.png">
+	        			<div>
+	        				<h1 class="minititle2">LIFE</h1>
+	        			</div>
+	        			</div>
+
+
+
+
+<div class="backgroundimage3">
+<footer id="Contact"class="footer">
+		<a><img class="socials" src="Pics/insta.png"></a>
+		<p style="text-align: center;">Phone number: +1 (951) 466-9984</p>
+</footer>
+</div>
+<button class="backtotop2"onclick="topFunction()" id="backtotop" title="Go to top">⬆</button>
+
+<!-- IMAGEN INCORPORADA -->
+<script>
+var mybutton = document.getElementById("backtotop");
+var navbar = document.getElementById("title");
+
+window.onscroll = function() {scrollFunction(),hidetitle()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+	function hidetitle() {
+		if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+			  navbar.style.display = "none";
+			  navbar.style.transitionDelay = "all 2s";
+			} 
+			else {
+			  navbar.style.display = "block";
+			}
+	}
+
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+</script>
+<script type="text/javascript">
+	
+var tablinks = document.getElementByClassName("tablinks");
+var tabcontents = document.getElementByClassName("tabcontents");
+
+function opentab(tabname) {
+	for(tablink of tablinks) {
+		tablink.classList.remove("activelink");
+	}
+		for(tabcontent of tabcontents) {
+		tabcontent.classList.remove("activetab");
+	}
+	event.currentTarget.classList.add("activelink");
+	document.getElementById(tabname).classList.add("activetab");
+}
+</script>
+</body>
+</html>
