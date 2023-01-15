@@ -15,15 +15,6 @@ html {
 
 
 /* Cursor */
-@media (max-width: 768px) {
-
-.cursor {
-	display: none;
-}
-.circle {
-	display: none;
-}
-}
 
 .cursor {
   pointer-events: none;
