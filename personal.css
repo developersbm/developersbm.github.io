@@ -36,7 +36,17 @@ html {
     background-color: #fff;
 }
 
+@media (max-width: 768px) {
 
+.cursor {
+	position: unset;
+	display: none;
+}
+.circle {
+		position: unset;
+	display: none;
+}
+}
 
 /* Main Menu */
 .black {
