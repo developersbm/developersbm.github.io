@@ -918,7 +918,7 @@ input[type="submit"] {
   }
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1100px) {
 
 .js-scroll {
   opacity: 1;
