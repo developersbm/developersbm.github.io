@@ -505,10 +505,12 @@ margin: 10px 0;
 .tabcontents.activetab {
 	display: block;
 }
-
+.responsivepic {
+  display: block;
+}
 @media (max-width: 1142px) {
 .responsivepic{
-padding-bottom: 4pc;
+  display: none;
 }
 
 }
